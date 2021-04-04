@@ -7,6 +7,8 @@
 >
 > NOTE : Some functions of this application (such as filtering orders by date, viewing orders from all users, filtering products by categories, uploading images to products)
 > don't work because of using of Firebase API in this version. 
+> 
+### Every newly registered user has admin rights.
 
 ## Change branch for master to source view
 
