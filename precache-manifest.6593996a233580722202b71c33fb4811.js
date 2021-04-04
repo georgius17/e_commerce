@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3d60f85c8f5413de6a9c9450be03594",
+    "revision": "cc6de87fe00379aafb06e155bb3b28f7",
     "url": "https://georgius17.github.io/e_commerce/index.html"
   },
   {
-    "revision": "f478ae035ccfd0984d80",
+    "revision": "1e091e0cec4197ae7ea1",
     "url": "https://georgius17.github.io/e_commerce/static/css/main.d498bfb3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://georgius17.github.io/e_commerce/static/js/2.c7cfe90b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f478ae035ccfd0984d80",
-    "url": "https://georgius17.github.io/e_commerce/static/js/main.93db0da2.chunk.js"
+    "revision": "1e091e0cec4197ae7ea1",
+    "url": "https://georgius17.github.io/e_commerce/static/js/main.afa1dbf3.chunk.js"
   },
   {
     "revision": "255df4eaf250299cac62",
