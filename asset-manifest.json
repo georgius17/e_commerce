@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/e_commerce/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/e_commerce/static/js/main.1f89b69e.chunk.js",
-    "main.js.map": "/e_commerce/static/js/main.1f89b69e.chunk.js.map",
-    "runtime-main.js": "/e_commerce/static/js/runtime-main.3caa226a.js",
-    "runtime-main.js.map": "/e_commerce/static/js/runtime-main.3caa226a.js.map",
-    "static/js/2.f8efbcdd.chunk.js": "/e_commerce/static/js/2.f8efbcdd.chunk.js",
-    "static/js/2.f8efbcdd.chunk.js.map": "/e_commerce/static/js/2.f8efbcdd.chunk.js.map",
-    "index.html": "/e_commerce/index.html",
-    "precache-manifest.4775d9dd99c9fec96078d9d9b9d17635.js": "/e_commerce/precache-manifest.4775d9dd99c9fec96078d9d9b9d17635.js",
-    "service-worker.js": "/e_commerce/service-worker.js",
-    "static/css/main.d498bfb3.chunk.css.map": "/e_commerce/static/css/main.d498bfb3.chunk.css.map",
-    "static/js/2.f8efbcdd.chunk.js.LICENSE.txt": "/e_commerce/static/js/2.f8efbcdd.chunk.js.LICENSE.txt",
-    "static/media/bag_icon.jpg": "/e_commerce/static/media/bag_icon.7bc45d65.jpg",
-    "static/media/header.jpg": "/e_commerce/static/media/header.fab41997.jpg"
+    "main.css": "https://georgius17.github.io/e_commerce/static/css/main.d498bfb3.chunk.css",
+    "main.js": "https://georgius17.github.io/e_commerce/static/js/main.93db0da2.chunk.js",
+    "main.js.map": "https://georgius17.github.io/e_commerce/static/js/main.93db0da2.chunk.js.map",
+    "runtime-main.js": "https://georgius17.github.io/e_commerce/static/js/runtime-main.7951a3e4.js",
+    "runtime-main.js.map": "https://georgius17.github.io/e_commerce/static/js/runtime-main.7951a3e4.js.map",
+    "static/js/2.c7cfe90b.chunk.js": "https://georgius17.github.io/e_commerce/static/js/2.c7cfe90b.chunk.js",
+    "static/js/2.c7cfe90b.chunk.js.map": "https://georgius17.github.io/e_commerce/static/js/2.c7cfe90b.chunk.js.map",
+    "index.html": "https://georgius17.github.io/e_commerce/index.html",
+    "precache-manifest.5020f6e520543465f12b5c9f21c1f1ec.js": "https://georgius17.github.io/e_commerce/precache-manifest.5020f6e520543465f12b5c9f21c1f1ec.js",
+    "service-worker.js": "https://georgius17.github.io/e_commerce/service-worker.js",
+    "static/css/main.d498bfb3.chunk.css.map": "https://georgius17.github.io/e_commerce/static/css/main.d498bfb3.chunk.css.map",
+    "static/js/2.c7cfe90b.chunk.js.LICENSE.txt": "https://georgius17.github.io/e_commerce/static/js/2.c7cfe90b.chunk.js.LICENSE.txt",
+    "static/media/bag_icon.jpg": "https://georgius17.github.io/e_commerce/static/media/bag_icon.7bc45d65.jpg",
+    "static/media/header.jpg": "https://georgius17.github.io/e_commerce/static/media/header.fab41997.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3caa226a.js",
-    "static/js/2.f8efbcdd.chunk.js",
+    "static/js/runtime-main.7951a3e4.js",
+    "static/js/2.c7cfe90b.chunk.js",
     "static/css/main.d498bfb3.chunk.css",
-    "static/js/main.1f89b69e.chunk.js"
+    "static/js/main.93db0da2.chunk.js"
   ]
 }
