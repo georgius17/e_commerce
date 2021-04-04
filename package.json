@@ -57,7 +57,9 @@
     "eject": "react-scripts eject",
     "generate-types": "npx rest2ts -s https://localhost:44351/swagger/v1/swagger.json -t ./src/Api -v process.env.REACT_APP_API_URL",
     "dev": "env-cmd -f .env.development npm run generate-types && npm run start",
-    "build:prod": "env-cmd -f .env.prod npm run build"
+    "build:prod": "env-cmd -f .env.prod npm run build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
