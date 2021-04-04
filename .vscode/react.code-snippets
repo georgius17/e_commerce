@@ -1,0 +1,105 @@
+{
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "import * as React from 'react';",
+      "import { useResource } from 'Translations/Resources';",
+      "\nconst $1: React.FunctionComponent = _ => {",
+      "const { t } = useResource();",
+      "\treturn (<>$1</>)",
+      "}",
+      "\nexport { $1 };"
+    ],
+    "description": "React Function Component"
+  },
+  "React Function Component with Props": {
+    "prefix": "rfcp",
+    "body": [
+      "import * as React from 'react';",
+      "\ntype Props = { $2: $3 };",
+      "\nconst $1: React.FunctionComponent<Props> = props => {",
+      "\treturn (<>$1</>)",
+      "}",
+      "\nexport { $1 };"
+    ],
+    "description": "React Function Component"
+  },
+  "React Reducer": {
+    "prefix": "rred",
+    "body": [
+      "import { createReducer, ActionType, createAsyncAction } from \"typesafe-actions\";",
+      "",
+      "export type $1State = {};",
+      "",
+      "export const $2Async = createAsyncAction(",
+      "  \"@auth/$3_REQUEST\",",
+      "  \"@auth/$3_SUCCESS\",",
+      "  \"@auth/$3_FAILURE\",",
+      ")<void, void, Error>();",
+      "",
+      "export type $1Action = ActionType<typeof getGuidepostAsync>;",
+      "",
+      "export const $4Reducer = createReducer<$1State, $1Action>({})",
+      "  .handleAction(get$1Async.request, state => {",
+      "    return { ...state };",
+      "  })",
+      "  .handleAction(get$1Async.success, (state, action) => {",
+      "    return { ...state };",
+      "  })",
+      "  .handleAction(get$1Async.failure, (state, action) => {",
+      "    return {",
+      "      ...state,",
+      "    };",
+      "  });"
+    ],
+    "description": "React Reducer"
+  },
+  "Async action": {
+    "prefix": "aa",
+    "body": [
+      "export const $1Async = createAsyncAction(",
+      "  \"@auth/$2_REQUEST\",",
+      "  \"@auth/$2_SUCCESS\",",
+      "  \"@auth/$2_FAILURE\",",
+      ")<void, void, Error>();",
+      ""
+    ],
+    "description": "React Reducer"
+  },
+  "Saga": {
+    "prefix": "saga",
+    "body": [
+      "import { put, takeLatest } from \"redux-saga/effects\";",
+      "import { $3 } from \"Api/Api\";",
+      "import { getType } from \"typesafe-actions\";",
+      "import { call } from \"typed-redux-saga\";",
+      "",
+      "function* $1(action: ReturnType<typeof $2.request>): Generator {",
+      "  try {",
+      "    const response = yield* call($3, action.payload);",
+      "    if (response.status === 200) {",
+      "      yield put($2.success(response.json));",
+      "    } else {",
+      "      yield put($2.failure(new Error()));",
+      "    }",
+      "  } catch (err) {",
+      "    yield put($2.failure(err));",
+      "  }",
+      "}",
+      "export function* $1Saga() {",
+      "  yield takeLatest(getType($2.request), $1);",
+      "}"
+    ],
+    "description": "Saga"
+  },
+  "Styled component": {
+    "prefix": "st",
+    "body": ["const Styled$1 = styled.$2`", "", "`;"],
+    "description": "Styled with theme"
+  },
+  "Styled with theme": {
+    "prefix": "stt",
+    "body": ["const Styled$1= styled.$2`", "  ${({ theme }) => `", "`}", "`;"],
+    "description": "Styled with theme"
+  }
+}
